@@ -16,7 +16,13 @@ b. Protokol layer transport apa yang digunakan?
 
 Dengan kombinasi dari kedua kondisi ini (disjungsi dengan `||` yang berarti "atau"), dapat menyaring paket yang terkait dengan lalu lintas yang melibatkan alamat IP 239.255.255.250 dengan port UDP 3702 baik sebagai sumber atau tujuan. Hanya saja satu memeriksa 
 
+![Langkah3](jawaban_nadya/langkah3.png)
+
+
 - ##### Screenshoot
+
+  ![Jawaban3](jawaban_nadya/jawaban3.png)
+
 - ##### Kendala
   Tidak ada
 
@@ -24,6 +30,9 @@ Dengan kombinasi dari kedua kondisi ini (disjungsi dengan `||` yang berarti "ata
 - ##### Penjelasan
  Seperti yang terlihat di packet tersebut bahwa protokol yang di gunakan adalah UDP 
 - ##### Screenshoot
+  
+![Jawaban3](jawaban_nadya/jawaban3.png)
+
 - ##### Kendala
   Tidak ada
 
@@ -40,8 +49,13 @@ Langkah-langkah untuk menghitung jumlah paket yang menuju alamat IP 184.87.193.8
 ```
 ip.dst == 184.87.193.88
 ```
+![Langkah7](jawaban_nadya/langkah7.png)
+
 Filter ini akan mencocokkan semua packet yang memiliki alamat IP tujuan 184.87.193.88 dan hasil filteringnya berupa jumlah paket yaitu ada 6 paket. 
 - ##### Screenshoot
+
+  ![Jawaban7](jawaban_nadya/jawaban7.png)
+  
 - ##### Kendala
   Tidak ada
 
@@ -64,6 +78,14 @@ Untuk menemukan kredensial yang benar ketika user mencoba login menggunakan Teln
 - Dalam jendela "Packet Details" di bagian bawah, klik kanan pada packet tersebut dan pilih "Follow" > "TCP Stream." Ini akan membuka jendela baru yang menampilkan percakapan Telnet.
 - Di dalam jendela TCP Stream, akan ada komunikasi antara client dan server Telnet. Biasanya, username dan password akan muncul di sini.
 - Cari bagian yang mengandung informasi login, seperti username dan password. Dan disini muncul, username adalah "dhafin" dan password adalah "kesayangannyak0k0."
+
+  ![Langkah10_1](jawaban_nadya/langkah10_1.png)   ![Langkah10_2](jawaban_nadya/langkah10_2.png)   ![Langkah10_3](jawaban_nadya/langkah10_3.png)
+
+  
 - ##### Screenshoot
+
+![Jawaban10](jawaban_nadya/jawaban10.png)
+
+  
 - ##### Kendala
-Sempat salah pada username karena menulis dengan kata aslinya tanpa membedakan warna merah dan biru nyaa, yang awalnya adlaah ddhhaaffiinn tapi seharusnya adalah dhafin
+Sempat salah pada username karena menulis dengan kata aslinya tanpa membedakan warna merah dan biru nyaa, yang awalnya adalah ddhhaaffiinn tapi seharusnya adalah dhafin
